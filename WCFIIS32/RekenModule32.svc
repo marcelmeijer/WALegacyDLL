@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WCFIIS32.RekenModule32" CodeBehind="RekenModule32.svc.cs" %>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e6f47a8f-6992-4f1a-8cab-56b8b9b0c070" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:16150/RekenModuleService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RekenModuleService.xsd" MetadataType="Schema" ID="84d982c1-a10c-4af1-a4d4-c3c5b1d6a98b" SourceId="1" SourceUrl="http://localhost:16150/RekenModuleService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RekenModuleService.disco" MetadataType="Disco" ID="190cdc15-2aa4-4d1f-a70a-08742fe493e6" SourceId="1" SourceUrl="http://localhost:16150/RekenModuleService.svc?disco" />
+    <MetadataFile FileName="RekenModuleService1.xsd" MetadataType="Schema" ID="a8b22efb-8d76-463d-931e-eb9665b8aae5" SourceId="1" SourceUrl="http://localhost:16150/RekenModuleService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RekenModuleService.wsdl" MetadataType="Wsdl" ID="19601a99-7dec-4ae0-b19c-93e3d5413aa8" SourceId="1" SourceUrl="http://localhost:16150/RekenModuleService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

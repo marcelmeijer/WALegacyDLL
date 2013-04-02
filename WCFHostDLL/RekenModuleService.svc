@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WCFHostDLL.RekenModuleService" CodeBehind="RekenModuleService.svc.cs" %>

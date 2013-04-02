@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WALegacyDLL", "WALegacyDLL\WALegacyDLL.ccproj", "{2603858F-8762-4BAE-A76E-4A322D3A319C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRoleRekenModule", "WebRoleRekenModule\WebRoleRekenModule.csproj", "{FB5EB2C9-E4CF-46C9-B455-424AA6E25CA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA3DFFBC-FCC1-4823-A814-AD1543A544C1} = {BA3DFFBC-FCC1-4823-A814-AD1543A544C1}
+		{AD830FCB-0628-4663-9C15-E93A9C45B65C} = {AD830FCB-0628-4663-9C15-E93A9C45B65C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFHostDLL", "WCFHostDLL\WCFHostDLL.csproj", "{AD830FCB-0628-4663-9C15-E93A9C45B65C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFIIS32", "WCFIIS32\WCFIIS32.csproj", "{BA3DFFBC-FCC1-4823-A814-AD1543A544C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllHostx86", "DllHostx86\DllHostx86.csproj", "{2D933E2A-6552-45E4-993C-7C7D11BBF406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2603858F-8762-4BAE-A76E-4A322D3A319C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2603858F-8762-4BAE-A76E-4A322D3A319C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2603858F-8762-4BAE-A76E-4A322D3A319C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2603858F-8762-4BAE-A76E-4A322D3A319C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5EB2C9-E4CF-46C9-B455-424AA6E25CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5EB2C9-E4CF-46C9-B455-424AA6E25CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5EB2C9-E4CF-46C9-B455-424AA6E25CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5EB2C9-E4CF-46C9-B455-424AA6E25CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD830FCB-0628-4663-9C15-E93A9C45B65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD830FCB-0628-4663-9C15-E93A9C45B65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD830FCB-0628-4663-9C15-E93A9C45B65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD830FCB-0628-4663-9C15-E93A9C45B65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3DFFBC-FCC1-4823-A814-AD1543A544C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3DFFBC-FCC1-4823-A814-AD1543A544C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3DFFBC-FCC1-4823-A814-AD1543A544C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3DFFBC-FCC1-4823-A814-AD1543A544C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D933E2A-6552-45E4-993C-7C7D11BBF406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D933E2A-6552-45E4-993C-7C7D11BBF406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D933E2A-6552-45E4-993C-7C7D11BBF406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D933E2A-6552-45E4-993C-7C7D11BBF406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
